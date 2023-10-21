@@ -3,16 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FinancialMovementsComponent } from './financial-movements/financial-movements.component';
+import { FinancialMovementsRouterModule } from './financial-movements/financial-movements-routing';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FinancialMovementsComponent
   ],
   imports: [
     BrowserModule,
+    FinancialMovementsRouterModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,
+    FinancialMovementsComponent]
 })
 export class AppModule { }
