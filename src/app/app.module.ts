@@ -1,28 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FinancialMovementsComponent } from './financial-movements/financial-movements.component';
-import { FinancialMovementsRouterModule } from './financial-movements/financial-movements-routing';
 import { HomeComponent } from './home/home.component';
-import { HomeRoutingModule } from './home/home.routing';
+import { FinancialMovementsComponent } from './financial-movements/financial-movements.component';
+import { homeRoutingModule } from './home/home-routing.modules';
+import { FinancialMovementsRoutingModule } from './financial-movements/financial-movements-routing.modules';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FinancialMovementsComponent,
-    HomeComponent
+    HomeComponent,
+    FinancialMovementsComponent
   ],
   imports: [
     BrowserModule,
-    FinancialMovementsRouterModule,
-    HomeRoutingModule,
-    AppRoutingModule
+    AppRoutingModule, 
+    homeRoutingModule, 
+    FinancialMovementsRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent,
-    FinancialMovementsComponent,
-    HomeComponent]
+  ]
 })
 export class AppModule { }
