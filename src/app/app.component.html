@@ -1,37 +1,38 @@
 <nav class="navbar navbar-dark bg-dark">
   <div class="card-container" style="padding: 0.5%;">
-    <a class="navbar-brand" href="#">
-      <img src="https://cdn-icons-png.flaticon.com/512/2657/2657175.png" width="30" height="30"
+      <a class="navbar-brand" href="#">
+        <img src="https://cdn-icons-png.flaticon.com/512/2657/2657175.png" width="30" height="30"
         class="d-inline-block align-top" alt="">
-      Minhas Finanças
-    </a>
-  </div>
-</nav>
-<div class="card-conteiner" style="padding: 0.1%;">
-  <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary shadow-sm" id="pillNav2" role="tablist"
-    style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-    <li [routerLink]="['/home']" routerLinkActive="router-link-active"  class="nav-item" role="presentation">
-      <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab"
-        aria-selected="true">Inicio</button>
-    </li>
-    <li [routerLink]="['/financial-movements']" routerLinkActive="router-link-active"  class="nav-item" role="presentation">
-      <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab"
-        aria-selected="false">Transaçoes</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab"
-        aria-selected="false">Perfil</button>
-    </li>
-  </ul>
+        Minhas Finanças
+      </a>
+    </div>
+  </nav>
+  <div class="card-conteiner" style="padding: 0.1%;">
+    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary shadow-sm" id="pillNav2" role="tablist"
+      style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+      <li [routerLink]="['/home']" routerLinkActive="router-link-active" class="nav-item" role="presentation">
+        <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab"
+          aria-selected="true">Inicio</button>
+      </li>
+      <li [routerLink]="['/transactions']" routerLinkActive="router-link-active" style="padding-left: 20%;"
+        class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab"
+          aria-selected="false">Transaçoes</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab"
+          aria-selected="false">Perfil</button>
+      </li>
+    </ul>
 
-  <!-- <body>
+    <!-- <body>
     <app-financial-movements></app-financial-movements>
   </body> -->
-</div>
-<!-- 
-<body>
-  <app-home></app-home>
-</body> -->
+  </div>
+  <!-- 
+  <body>
+    <app-home></app-home>
+  </body> -->
 
 
-<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
