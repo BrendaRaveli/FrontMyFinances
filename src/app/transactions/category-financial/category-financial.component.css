@@ -3,4 +3,5 @@ div, section {
 }
 #category {
     width: 300px;
+    background-color: rgb(231, 225, 225);
 }
