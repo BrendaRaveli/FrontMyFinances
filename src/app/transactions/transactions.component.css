@@ -1,8 +1,12 @@
 .item-1 {
- display: inline-flex;
- width: 40%;
+ display: inline-block;
+ width: 35%;
+ margin-right: 0.25cm;
+ margin: 0.25cm;
 }
 .item-2 {
-    display: inline-flex;
-    width: 60%;
+    display: inline-block;
+    width: 55%;
+    margin: 0.25cm;
+
    }
