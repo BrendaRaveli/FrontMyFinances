@@ -1,0 +1,8 @@
+.item-1 {
+ display: inline-flex;
+ width: 40%;
+}
+.item-2 {
+    display: inline-flex;
+    width: 60%;
+   }

@@ -1,7 +1,10 @@
 div, section {
+    text-align: center;
+}
+section {
     text-align: left;
 }
-#category {
-    width: 300px;
-    background-color: rgb(231, 225, 225);
+.card{
+    /* width: 90%; */
+    background-color: rgba(185, 194, 192, 0.966);
 }
