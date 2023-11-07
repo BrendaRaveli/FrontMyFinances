@@ -36,10 +36,18 @@ button {
 }
 .transfer{
     background-color: rgb(222, 219, 27);
-
 }
 
 .table{
     text-align: center;
-    
 }
+body{
+    margin-top: 5px;
+}
+
+.button-action-delete{
+    display: flex;
+    /* justify-content: right;
+      align-items: center; */
+
+} 
