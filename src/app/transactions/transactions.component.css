@@ -1,20 +1,25 @@
-
-.principal {
-    /* display: inline-block; */
-}
+/* 
 
 .item-1 {
  display: inline-block;
  width: 350px;
  margin-right: 0.25cm;
  margin: 0.25cm;
- /* height: 150px; */
- /* padding-top: 25%; */
-}
-.item-2 {
-    display: inline-block;
-    width: 970px;
-    margin: 0.25cm;
-    /* height: 150px; */
 
-   }
+}
+*/
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+
+    /* display: inline-block; */
+    width: 970px;
+    /* margin: 0.25cm; */
+    padding: 1%;
+    align-items: center;
+
+   } 
