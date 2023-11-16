@@ -45,9 +45,15 @@ body{
     margin-top: 5px;
 }
 
+/* .actions{
+display: flex;
+justify-content: right;
+align-items:end;
+} */
+/* 
 .button-action-delete{
     display: flex;
-    /* justify-content: right;
-      align-items: center; */
+    justify-content: right;
+      align-items: center;
 
-} 
+}  */
